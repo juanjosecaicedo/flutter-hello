@@ -74,7 +74,8 @@ class HomeScreen extends StatelessWidget {
             )
           ],
           color: Colors.white,
-          buttonBackgroundColor: Colors.blueAccent,
+          buttonBackgroundColor: Colors.white,
+          backgroundColor: Colors.blueAccent,
           animationCurve: Curves.easeInOut,
           animationDuration: Duration(milliseconds: 400),
         ),
