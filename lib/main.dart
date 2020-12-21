@@ -52,6 +52,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text('Home'),
+          centerTitle: true,
         ),
         bottomNavigationBar: CurvedNavigationBar(
           key: _bottomNavigationKey,
